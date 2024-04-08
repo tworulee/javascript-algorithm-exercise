@@ -6,7 +6,8 @@
 // import { questionMark } from "./sorular/questionMark.js";
 // import { letterChange } from "./sorular/letterChange.js";
 // import { simpleAdding } from "./sorular/simpleAdding.js";
-import { letterCapitalize } from "./sorular/letterCapitalize.js";
+// import { letterCapitalize } from "./sorular/letterCapitalize.js";
+import { simpleSymbols } from "./sorular/simpleSymbols.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -17,4 +18,5 @@ import { letterCapitalize } from "./sorular/letterCapitalize.js";
 // console.log(questionMark("arrb6??4xxbl5???eee5"))
 // console.log(letterChange("hello"));
 // console.log(simpleAdding(5));
-console.log(letterCapitalize("bugün hava cok fusze dsdf sdfsaf sldfjsdf en cok guzel gaha kdsdf"));
+// console.log(letterCapitalize("bugün hava cok fusze dsdf sdfsaf sldfjsdf en cok guzel gaha kdsdf"));
+console.log(simpleSymbols("++d+===+c++==a"))
