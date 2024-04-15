@@ -13,7 +13,8 @@
 // import { abCheck } from "./sorular/abCheck.js";
 // import { exOh } from "./sorular/exOh.js";
 // import { wordCount } from "./sorular/wordCount.js";
-import { vovelCount } from "./sorular/vovelCount.js";
+// import { vovelCount } from "./sorular/vovelCount.js";
+import { isPalidrome } from "./sorular/isPalindrome.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -31,4 +32,5 @@ import { vovelCount } from "./sorular/vovelCount.js";
 // console.log(abCheck("lane borrowed"));
 // console.log(exOh("xooxxxxxooxooo"));
 // console.log(wordCount("Never eat shredded wheat"));
-console.log(vovelCount("All cows eat grass"));
+// console.log(vovelCount("All cows eat grass"));
+console.log(isPalidrome("r ace car"));
