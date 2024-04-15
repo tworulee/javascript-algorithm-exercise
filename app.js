@@ -12,7 +12,8 @@
 // import { alphabetSoup } from "./sorular/alphabetSoup.js";
 // import { abCheck } from "./sorular/abCheck.js";
 // import { exOh } from "./sorular/exOh.js";
-import { wordCount } from "./sorular/wordCount.js";
+// import { wordCount } from "./sorular/wordCount.js";
+import { vovelCount } from "./sorular/vovelCount.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -29,4 +30,5 @@ import { wordCount } from "./sorular/wordCount.js";
 // console.log(alphabetSoup("hello"));
 // console.log(abCheck("lane borrowed"));
 // console.log(exOh("xooxxxxxooxooo"));
-console.log(wordCount("Never eat shredded wheat"));
+// console.log(wordCount("Never eat shredded wheat"));
+console.log(vovelCount("All cows eat grass"));
