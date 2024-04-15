@@ -11,7 +11,8 @@
 // import { timeConvert } from "./sorular/timeConvert.js";
 // import { alphabetSoup } from "./sorular/alphabetSoup.js";
 // import { abCheck } from "./sorular/abCheck.js";
-import { exOh } from "./sorular/exOh.js";
+// import { exOh } from "./sorular/exOh.js";
+import { wordCount } from "./sorular/wordCount.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -27,4 +28,5 @@ import { exOh } from "./sorular/exOh.js";
 // console.log(timeConvert(63));
 // console.log(alphabetSoup("hello"));
 // console.log(abCheck("lane borrowed"));
-console.log(exOh("xooxxxxxooxooo"));
+// console.log(exOh("xooxxxxxooxooo"));
+console.log(wordCount("Never eat shredded wheat"));
