@@ -10,7 +10,8 @@
 // import { simpleSymbols } from "./sorular/simpleSymbols.js";
 // import { timeConvert } from "./sorular/timeConvert.js";
 // import { alphabetSoup } from "./sorular/alphabetSoup.js";
-import { abCheck } from "./sorular/abCheck.js";
+// import { abCheck } from "./sorular/abCheck.js";
+import { exOh } from "./sorular/exOh.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -25,4 +26,5 @@ import { abCheck } from "./sorular/abCheck.js";
 // console.log(simpleSymbols("++d+===+c++==a"))
 // console.log(timeConvert(63));
 // console.log(alphabetSoup("hello"));
-console.log(abCheck("lane borrowed"));
+// console.log(abCheck("lane borrowed"));
+console.log(exOh("xooxxxxxooxooo"));
