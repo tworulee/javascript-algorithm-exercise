@@ -9,7 +9,8 @@
 // import { letterCapitalize } from "./sorular/letterCapitalize.js";
 // import { simpleSymbols } from "./sorular/simpleSymbols.js";
 // import { timeConvert } from "./sorular/timeConvert.js";
-import { alphabetSoup } from "./sorular/alphabetSoup.js";
+// import { alphabetSoup } from "./sorular/alphabetSoup.js";
+import { abCheck } from "./sorular/abCheck.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -23,4 +24,5 @@ import { alphabetSoup } from "./sorular/alphabetSoup.js";
 // console.log(letterCapitalize("bugün hava cok fusze dsdf sdfsaf sldfjsdf en cok guzel gaha kdsdf"));
 // console.log(simpleSymbols("++d+===+c++==a"))
 // console.log(timeConvert(63));
-console.log(alphabetSoup("hello"));
+// console.log(alphabetSoup("hello"));
+console.log(abCheck("lane borrowed"));
