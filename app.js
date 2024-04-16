@@ -14,7 +14,8 @@
 // import { exOh } from "./sorular/exOh.js";
 // import { wordCount } from "./sorular/wordCount.js";
 // import { vovelCount } from "./sorular/vovelCount.js";
-import { isPalidrome } from "./sorular/isPalindrome.js";
+// import { isPalidrome } from "./sorular/isPalindrome.js";
+import { arithGeo } from "./sorular/arithGeo.js";
 
 // console.log(userValidation("u__hello_world123"));
 
@@ -33,4 +34,5 @@ import { isPalidrome } from "./sorular/isPalindrome.js";
 // console.log(exOh("xooxxxxxooxooo"));
 // console.log(wordCount("Never eat shredded wheat"));
 // console.log(vovelCount("All cows eat grass"));
-console.log(isPalidrome("r ace car"));
+// console.log(isPalidrome("r ace car"));
+console.log(arithGeo([2,4,6,8,10]));
