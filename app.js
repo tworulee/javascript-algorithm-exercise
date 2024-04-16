@@ -16,10 +16,12 @@
 // import { vovelCount } from "./sorular/vovelCount.js";
 // import { isPalidrome } from "./sorular/isPalindrome.js";
 // import { arithGeo } from "./sorular/arithGeo.js";
-import { arrayAdition } from "./sorular/arrayAdition.js";
+// import { arrayAdition } from "./sorular/arrayAdition.js";
+// import { letterCount } from "./sorular/letterCount.js";
+import { secondGreatLow } from "./sorular/secondGreatLow.js";
+
 
 // console.log(userValidation("u__hello_world123"));
-
 // console.log(longestWord("fun&!! time"))
 //  console.log(firstFactorial(8))
 // console.log(firstReverse("merhaba"))
@@ -37,4 +39,6 @@ import { arrayAdition } from "./sorular/arrayAdition.js";
 // console.log(vovelCount("All cows eat grass"));
 // console.log(isPalidrome("r ace car"));
 // console.log(arithGeo([2,4,6,8,10]));
-console.log(arrayAdition([-5,3,-3,35,12,24,-8,12]));
+// console.log(arrayAdition([-5,3,-3,35,12,24,-8,12]));
+// console.log(letterCount("Today, is the greatest day ever!"));
+console.log(secondGreatLow([7,7,12,98,106]));
