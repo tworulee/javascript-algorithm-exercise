@@ -7,11 +7,11 @@ export const secondGreatLow = (arr)=>{
 
     let sorted = newArr.sort((a,b)=>a-b)
     let result =[];
-    if (sorted[1]>sorted[0]) {
+    if (sorted[1]) {
         result.push(sorted[1])
     }
 
-    if (sorted[sorted.length -2]<sorted[sorted.length -1]) {
+    if (sorted[sorted.length -2]) {
         result.push(sorted[sorted.length -2])
     }
 
