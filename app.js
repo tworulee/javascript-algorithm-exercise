@@ -22,8 +22,8 @@
 // import { divisionStringify } from "./sorular/divisionStringify.js";
 // import { countingMinutes } from "./sorular/coutingMinutes.js";
 // import { meanMode } from "./sorular/meanMode.js";
-import { dashInsert } from "./sorular/dashInsert.js";
-
+// import { dashInsert } from "./sorular/dashInsert.js";
+import { swapCase } from "./sorular/swapCase.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -50,4 +50,5 @@ import { dashInsert } from "./sorular/dashInsert.js";
 // console.log(divisionStringify(123456789,10000));
 // console.log(countingMinutes("9:00pm-10:00am"));
 // console.log(meanMode([5,3,3,3,3,3,3,1]));
-console.log(dashInsert("454793"));
+// console.log(dashInsert("454793"));
+console.log(swapCase("Hello World"));
