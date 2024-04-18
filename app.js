@@ -20,7 +20,9 @@
 // import { letterCount } from "./sorular/letterCount.js";
 // import { secondGreatLow } from "./sorular/secondGreatLow.js";
 // import { divisionStringify } from "./sorular/divisionStringify.js";
-import { countingMinutes } from "./sorular/coutingMinutes.js";
+// import { countingMinutes } from "./sorular/coutingMinutes.js";
+import { meanMode } from "./sorular/meanMode.js";
+
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -45,4 +47,5 @@ import { countingMinutes } from "./sorular/coutingMinutes.js";
 // console.log(letterCount("Today, is the greatest day ever!"));
 // console.log(secondGreatLow([7,7,12,98,106,150,35,45,16]));
 // console.log(divisionStringify(123456789,10000));
-console.log(countingMinutes("9:00pm-10:00am"));
+// console.log(countingMinutes("9:00pm-10:00am"));
+console.log(meanMode([5,3,3,3,1]));
