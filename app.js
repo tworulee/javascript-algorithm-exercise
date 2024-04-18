@@ -18,7 +18,8 @@
 // import { arithGeo } from "./sorular/arithGeo.js";
 // import { arrayAdition } from "./sorular/arrayAdition.js";
 // import { letterCount } from "./sorular/letterCount.js";
-import { secondGreatLow } from "./sorular/secondGreatLow.js";
+// import { secondGreatLow } from "./sorular/secondGreatLow.js";
+import { divisionStringify } from "./sorular/divisionStringify.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -41,4 +42,5 @@ import { secondGreatLow } from "./sorular/secondGreatLow.js";
 // console.log(arithGeo([2,4,6,8,10]));
 // console.log(arrayAdition([-5,3,-3,35,12,24,-8,12]));
 // console.log(letterCount("Today, is the greatest day ever!"));
-console.log(secondGreatLow([7,7,12,98,106]));
+// console.log(secondGreatLow([7,7,12,98,106,150,35,45,16]));
+console.log(divisionStringify(123456789,10000));
