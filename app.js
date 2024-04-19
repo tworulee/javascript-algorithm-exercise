@@ -24,7 +24,8 @@
 // import { meanMode } from "./sorular/meanMode.js";
 // import { dashInsert } from "./sorular/dashInsert.js";
 // import { swapCase } from "./sorular/swapCase.js";
-import { numberAdition } from "./sorular/numberAdition.js";
+// import { numberAdition } from "./sorular/numberAdition.js";
+import { additivePersistence } from "./sorular/additivePersistence.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -53,4 +54,5 @@ import { numberAdition } from "./sorular/numberAdition.js";
 // console.log(meanMode([5,3,3,3,3,3,3,1]));
 // console.log(dashInsert("454793"));
 // console.log(swapCase("Hello World"));
-console.log(numberAdition("8Hello 3Wor23ld!"));
+// console.log(numberAdition("8Hello 3Wor23ld!"));
+console.log(additivePersistence(2718));
