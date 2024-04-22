@@ -25,7 +25,8 @@
 // import { dashInsert } from "./sorular/dashInsert.js";
 // import { swapCase } from "./sorular/swapCase.js";
 // import { numberAdition } from "./sorular/numberAdition.js";
-import { additivePersistence } from "./sorular/additivePersistence.js";
+// import { additivePersistence } from "./sorular/additivePersistence.js";
+import { multiplicativePersistence } from "./sorular/multiplicativePersistence.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -55,4 +56,5 @@ import { additivePersistence } from "./sorular/additivePersistence.js";
 // console.log(dashInsert("454793"));
 // console.log(swapCase("Hello World"));
 // console.log(numberAdition("8Hello 3Wor23ld!"));
-console.log(additivePersistence(2718));
+// console.log(additivePersistence(2718));
+console.log(multiplicativePersistence(39));
