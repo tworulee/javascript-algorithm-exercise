@@ -26,8 +26,7 @@
 // import { swapCase } from "./sorular/swapCase.js";
 // import { numberAdition } from "./sorular/numberAdition.js";
 // import { additivePersistence } from "./sorular/additivePersistence.js";
-import { multiplicativePersistence } from "./sorular/multiplicativePersistence.js";
-
+import { offlineMin } from "./sorular/offLineMin.js";
 
 // console.log(userValidation("u__hello_world123"));
 // console.log(longestWord("fun&!! time"))
@@ -57,4 +56,5 @@ import { multiplicativePersistence } from "./sorular/multiplicativePersistence.j
 // console.log(swapCase("Hello World"));
 // console.log(numberAdition("8Hello 3Wor23ld!"));
 // console.log(additivePersistence(2718));
-console.log(multiplicativePersistence(39));
+// console.log(multiplicativePersistence(39));
+console.log(offlineMin(["5","4","6","E","1","7","E","E","3","2"]));
