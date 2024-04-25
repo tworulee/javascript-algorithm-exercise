@@ -26,7 +26,9 @@
 // import { swapCase } from "./sorular/swapCase.js";
 // import { numberAdition } from "./sorular/numberAdition.js";
 // import { additivePersistence } from "./sorular/additivePersistence.js";
-import { offlineMin } from "./sorular/offLineMin.js";
+// import { offlineMin } from "./sorular/offLineMin.js";
+import { changingSequance } from "./sorular/changingSequance.js";
+
 
 // console.log(userValidation("u__hello_world123"));
 // console.log(longestWord("fun&!! time"))
@@ -57,4 +59,5 @@ import { offlineMin } from "./sorular/offLineMin.js";
 // console.log(numberAdition("8Hello 3Wor23ld!"));
 // console.log(additivePersistence(2718));
 // console.log(multiplicativePersistence(39));
-console.log(offlineMin(["5","4","6","E","1","7","E","E","3","2"]));
+// console.log(offlineMin(["5","4","6","E","1","7","E","E","3","2"]));
+console.log(changingSequance([10,9,8,7,6,5,8,9,10]));
