@@ -28,7 +28,8 @@
 // import { additivePersistence } from "./sorular/additivePersistence.js";
 // import { offlineMin } from "./sorular/offLineMin.js";
 // import { overLappingRages } from "./sorular/overLappingRages.js";
-import { superIncreasing } from "./sorular/superIncreasing.js";
+// import { superIncreasing } from "./sorular/superIncreasing.js";
+import { hammingDistance } from "./sorular/hammingDistance.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -63,4 +64,5 @@ import { superIncreasing } from "./sorular/superIncreasing.js";
 // console.log(offlineMin(["5","4","6","E","1","7","E","E","3","2"]));
 // console.log(changingSequance([10,9,8,7,6,5,8,9,10]));
 // console.log(overLappingRages([2,10,4,6,3]));
-console.log(superIncreasing([1,3,6,13,54]));
+// console.log(superIncreasing([1,3,6,13,54]));
+console.log(hammingDistance("1011010","1110110"));
