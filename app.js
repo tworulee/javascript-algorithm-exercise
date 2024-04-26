@@ -29,7 +29,9 @@
 // import { offlineMin } from "./sorular/offLineMin.js";
 // import { overLappingRages } from "./sorular/overLappingRages.js";
 // import { superIncreasing } from "./sorular/superIncreasing.js";
-import { hammingDistance } from "./sorular/hammingDistance.js";
+// import { hammingDistance } from "./sorular/hammingDistance.js";
+// import { bittWise } from "./sorular/bittWise.js";
+import { checkNums } from "./sorular/checkNums.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -65,4 +67,6 @@ import { hammingDistance } from "./sorular/hammingDistance.js";
 // console.log(changingSequance([10,9,8,7,6,5,8,9,10]));
 // console.log(overLappingRages([2,10,4,6,3]));
 // console.log(superIncreasing([1,3,6,13,54]));
-console.log(hammingDistance("1011010","1110110"));
+// console.log(hammingDistance("1011010","1110110"));
+// console.log(bittWise(["1200","0210"]));
+console.log(checkNums(5,9));
