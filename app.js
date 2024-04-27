@@ -32,7 +32,9 @@
 // import { hammingDistance } from "./sorular/hammingDistance.js";
 // import { bittWise } from "./sorular/bittWise.js";
 // import { checkNums } from "./sorular/checkNums.js";
-import { waveSorting } from "./sorular/waveSorting.js";
+// import { waveSorting } from "./sorular/waveSorting.js";
+import { binaryReversal } from "./sorular/binaryReversal.js";
+
 
 // console.log(userValidation("u__hello_world123"));
 // console.log(longestWord("fun&!! time"))
@@ -70,4 +72,5 @@ import { waveSorting } from "./sorular/waveSorting.js";
 // console.log(hammingDistance("1011010","1110110"));
 // console.log(bittWise(["1200","0210"]));
 // console.log(checkNums(5,9));
-console.log(waveSorting([3,6,5,10,20,7,30]));
+// console.log(waveSorting([3,6,5,10,20,7,30]));
+console.log(binaryReversal("47"));
