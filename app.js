@@ -33,7 +33,9 @@
 // import { bittWise } from "./sorular/bittWise.js";
 // import { checkNums } from "./sorular/checkNums.js";
 // import { waveSorting } from "./sorular/waveSorting.js";
-import { binaryReversal } from "./sorular/binaryReversal.js";
+// import { binaryReversal } from "./sorular/binaryReversal.js";
+import { largestPair } from "./sorular/largestPair.js";
+
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -73,4 +75,5 @@ import { binaryReversal } from "./sorular/binaryReversal.js";
 // console.log(bittWise(["1200","0210"]));
 // console.log(checkNums(5,9));
 // console.log(waveSorting([3,6,5,10,20,7,30]));
-console.log(binaryReversal("47"));
+// console.log(binaryReversal("47"));
+console.log(largestPair(4759472));
