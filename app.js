@@ -34,8 +34,8 @@
 // import { checkNums } from "./sorular/checkNums.js";
 // import { waveSorting } from "./sorular/waveSorting.js";
 // import { binaryReversal } from "./sorular/binaryReversal.js";
-import { largestPair } from "./sorular/largestPair.js";
-
+// import { largestPair } from "./sorular/largestPair.js";
+import { firstNoneRepeating } from "./sorular/firstNoneRepeating.js";
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -76,4 +76,5 @@ import { largestPair } from "./sorular/largestPair.js";
 // console.log(checkNums(5,9));
 // console.log(waveSorting([3,6,5,10,20,7,30]));
 // console.log(binaryReversal("47"));
-console.log(largestPair(4759472));
+// console.log(largestPair(4759472));
+console.log(firstNoneRepeating("stress"));
