@@ -38,7 +38,9 @@
 // import { firstNoneRepeating } from "./sorular/firstNoneRepeating.js";
 // import { twoSum } from "./sorular/twoSum.js";
 // import { powerSet } from "./sorular/powerSet.js";
-import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
+// import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
+import { productDigits } from "./sorular/productDigits.js";
+
 
 
 // console.log(userValidation("u__hello_world123"));
@@ -83,4 +85,5 @@ import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
 // console.log(firstNoneRepeating("stress"));
 // console.log(twoSum([2,3,7,22,34],10));
 // console.log(powerSet([1,3,5,7,9],8));
-console.log(isPalidromeTwo("Anne, I vote more cars race Rome-to-Vienna"));
+// console.log(isPalidromeTwo("Anne, I vote more cars race Rome-to-Vienna"));
+console.log(productDigits(90));
