@@ -30,15 +30,32 @@ export const twoSum = (nums,target)=>{
 
 
     //thirdSolution
-    for (let i = 0; i < nums.length; i++) {
-        let current = nums[i]
-        let difference = target - current
-        let findIndexOfDif= nums.indexOf(difference)
+    // for (let i = 0; i < nums.length; i++) {
+    //     let current = nums[i]
+    //     let difference = target - current
+    //     let findIndexOfDif= nums.indexOf(difference)
 
-        if(findIndexOfDif >-1 && nums[i]!==nums[findIndexOfDif]){
-            return [i,findIndexOfDif]
-        }
+    //     if(findIndexOfDif >-1 && nums[i]!==nums[findIndexOfDif]){
+    //         return [i,findIndexOfDif]
+    //     }
         
+    // }
+
+
+    //fourth solution 
+    let left = 0;
+    let right = nums.length - 1
+
+    while(left<right){
+        let sum = nums[left]+ nums[right]
+
+        if(sum>target){
+            right--
+        }else if(sum<target){
+            left++
+        }else{
+            return [left,right]
+        }
     }
 
 

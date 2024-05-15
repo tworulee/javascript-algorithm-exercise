@@ -36,10 +36,10 @@
 // import { binaryReversal } from "./sorular/binaryReversal.js";
 // import { largestPair } from "./sorular/largestPair.js";
 // import { firstNoneRepeating } from "./sorular/firstNoneRepeating.js";
-// import { twoSum } from "./sorular/twoSum.js";
+//import { twoSum } from "./sorular/twoSum.js";
 // import { powerSet } from "./sorular/powerSet.js";
 // import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
-import { decimalToRoman } from "./sorular/decimalToRoman.js";
+// import { decimalToRoman } from "./sorular/decimalToRoman.js";
 
 
 
@@ -83,7 +83,7 @@ import { decimalToRoman } from "./sorular/decimalToRoman.js";
 // console.log(binaryReversal("47"));
 // console.log(largestPair(4759472));
 // console.log(firstNoneRepeating("stress"));
-// console.log(twoSum([2,3,7,22,34],10));
+//console.log(twoSum([2,3,7,22,34],10));
 // console.log(powerSet([1,3,5,7,9],8));
 // console.log(isPalidromeTwo("Anne, I vote more cars race Rome-to-Vienna"));
-console.log(decimalToRoman(3999))
+// console.log(decimalToRoman(3999))
