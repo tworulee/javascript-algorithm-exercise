@@ -18,12 +18,30 @@ export const twoSum = (nums,target)=>{
 
     // return returnValue === "" ? false : returnValue
 
-    for (let i = 0; i < nums.length; i++){
-        for (let j = i + 1; j < nums.length; j++) {
-            if (nums[i] + nums[j] === target) {
-                return [i, j]
-            }
+
+    //secondSolution
+    // for (let i = 0; i < nums.length; i++){
+    //     for (let j = i + 1; j < nums.length; j++) {
+    //         if (nums[i] + nums[j] === target) {
+    //             return [i, j]
+    //         }
+    //     }
+    // }
+
+
+    //thirdSolution
+    for (let i = 0; i < nums.length; i++) {
+        let current = nums[i]
+        let difference = target - current
+        let findIndexOfDif= nums.indexOf(difference)
+
+        if(findIndexOfDif >-1 && nums[i]!==nums[findIndexOfDif]){
+            return [i,findIndexOfDif]
         }
+        
     }
+
+
+
 
 }
