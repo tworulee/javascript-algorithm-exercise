@@ -39,7 +39,7 @@
 // import { twoSum } from "./sorular/twoSum.js";
 // import { powerSet } from "./sorular/powerSet.js";
 // import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
-import { productDigits } from "./sorular/productDigits.js";
+import { decimalToRoman } from "./sorular/decimalToRoman.js";
 
 
 
@@ -86,4 +86,4 @@ import { productDigits } from "./sorular/productDigits.js";
 // console.log(twoSum([2,3,7,22,34],10));
 // console.log(powerSet([1,3,5,7,9],8));
 // console.log(isPalidromeTwo("Anne, I vote more cars race Rome-to-Vienna"));
-console.log(productDigits(90));
+console.log(decimalToRoman(3999))
