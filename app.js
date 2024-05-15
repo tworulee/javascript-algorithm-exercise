@@ -40,7 +40,8 @@
 // import { powerSet } from "./sorular/powerSet.js";
 // import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
 // import { decimalToRoman } from "./sorular/decimalToRoman.js";
-import { threeSum } from "./sorular/treeSum.js";
+// import { threeSum } from "./sorular/treeSum.js";
+import { timeDifference } from "./sorular/timeDifference.js";
 
 
 
@@ -88,4 +89,5 @@ import { threeSum } from "./sorular/treeSum.js";
 // console.log(powerSet([1,3,5,7,9],8));
 // console.log(isPalidromeTwo("Anne, I vote more cars race Rome-to-Vienna"));
 // console.log(decimalToRoman(3999))
-console.log(threeSum([8,2,1,4,10,5,-1,-1],8));
+// console.log(threeSum([8,2,1,4,10,5,-1,-1],8));
+console.log(timeDifference("15:05","13:04"));
