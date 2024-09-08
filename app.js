@@ -41,7 +41,8 @@
 // import { isPalidromeTwo } from "./sorular/isPalidromeTwo.js";
 // import { decimalToRoman } from "./sorular/decimalToRoman.js";
 // import { threeSum } from "./sorular/treeSum.js";
-import { timeDifference } from "./sorular/timeDifference.js";
+// import { timeDifference } from "./sorular/timeDifference.js";
+import { closestEnemy } from "./sorular/closestEnemy.js";
 
 
 
@@ -90,4 +91,5 @@ import { timeDifference } from "./sorular/timeDifference.js";
 // console.log(isPalidromeTwo("Anne, I vote more cars race Rome-to-Vienna"));
 // console.log(decimalToRoman(3999))
 // console.log(threeSum([8,2,1,4,10,5,-1,-1],8));
-console.log(timeDifference("15:05","13:04"));
+// console.log(timeDifference("15:05","13:04"));
+console.log(closestEnemy([0,0,1,0,0,2,0,2]));
